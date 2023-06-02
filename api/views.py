@@ -5,6 +5,8 @@ from rest_framework.decorators import api_view, renderer_classes
 from rest_framework.parsers import JSONParser
 from django.conf import settings
 from bson.objectid import ObjectId
+#import settings.py
+from widmyHC import settings
 
 # Create your views here.
 
